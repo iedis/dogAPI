@@ -1,11 +1,25 @@
-.flex-container {
+.flex-container-center {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.flex-container > div {
+.flex-container-center > div {
     text-align: center;
-
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flex-container > div {
+    border-radius: 2px;
+    border: 2px;
+}
+.center-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 canvas {
     width: 40%;
