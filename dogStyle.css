@@ -1,0 +1,13 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.flex-container > div {
+    text-align: center;
+
+}
+canvas {
+    width: 40%;
+    height: auto;
+}
