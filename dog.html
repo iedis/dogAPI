@@ -9,9 +9,26 @@
 <body>
     <h1>This is such a cute dog</h1>
     <p>Wait 5 seconds for the dog to appear</p>
-    <div class="flex-container">
+    <div class="flex-container-center">
         <div><canvas id="doggy"></canvas></div>
     </div>
+    <br>
+    <div class="flex-container">
+        <div>
+            <p style="text-align: center;">Click the button below to see the cute dog vertically mirrored </p>
+            <div class="center-button">
+                <div><button onclick="VerticalMirror()">Vertical</button></div>
+            </div>
+        </div>
+        <div>
+            <p style="text-align: center;">Click the button below to see the cute dog horizontally mirrored </p>
+            <div class="center-button">
+                <div><button onclick="HorizontalMirror()">Horizontal</button></div>
+            </div>
+        </div>
+    </div>
+
     <script src="dogScript.js"></script>
+
 </body>
 </html>
